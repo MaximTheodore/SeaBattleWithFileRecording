@@ -185,8 +185,8 @@ class Game {
     print('----------------------------------------------------------------------------');
     print('Игрок ${player2.name} произвел ${player2.amount_hits} успешных выстрела\n ${player2.amount_fails} промахов \nПотопил ${player2.amount_hitting_ships} кораблей из ${shipsSizes.length}\n');
     print('----------------------------------------------------------------------------');
-    var data1 = 'Игрок ${player1.name} произвел ${player1.amount_hits} успешных выстрела\n ${player1.amount_fails} промахов \nПотопил ${player1.amount_hitting_ships} кораблей\n';
-    var data2 = 'Игрок ${player2.name} произвел ${player2.amount_hits} успешных выстрела\n ${player2.amount_fails} промахов \nПотопил ${player2.amount_hitting_ships} кораблей\n';
+    var data1 = 'Игрок ${player1.name} произвел ${player1.amount_hits} успешных выстрела\n ${player1.amount_fails} промахов \nПотопил ${player1.amount_hitting_ships} кораблей из ${shipsSizes.length}\n';
+    var data2 = 'Игрок ${player2.name} произвел ${player2.amount_hits} успешных выстрела\n ${player2.amount_fails} промахов \nПотопил ${player2.amount_hitting_ships} кораблей из ${shipsSizes.length}\n';
     var data = data1 + data2;
     writingResult(data);
   }
